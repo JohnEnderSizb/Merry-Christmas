@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body style="background: #f5ca93;">
+
+    <div class="container-fluid">
+        <br>
+
+        <div id="the_entries_div"></div>
+
+
+        <div class="entry-list shadow-sm" id="entry_template" onclick="openEntry(this)" style="display: none">
+            <h4 class="text-primary text-center entry-title">I took a pill in ibiza</h4>
+            <hr>
+            <p>
+                <span class="entry-message-field">Lorem ipsum dolor sit amet consectetur adipisicing elit...</span>
+
+            </p>
+
+            <p class="text-right">
+                <span class="text-secondary entry-time-field">00:00</span>
+            </p>
+            
+        </div>
+
+        <p class="hidden" id="test">Here</p>
+
+
+    </div>
+
+    <script  src="./jquery.min.js"></script>
+    <script src="./diary.js"></script>
+</body>
+
+</html>
